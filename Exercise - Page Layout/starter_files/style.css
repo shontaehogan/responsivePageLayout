@@ -14,7 +14,18 @@
     1100px
 
 */
+#main_content {
+  background-color: #ddffff;
 
+}
+#sidebar_content {
+  background-color: #ffffdd;
+}
+
+#site_footer {
+  background-color: peachpuff;
+
+}
 body{
     font-family: Palatino, Times, serif;
     background-color: #ddffdd;
@@ -46,10 +57,12 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
+    display: flex;
+    justify-content: space-between;
 }
 
 #site_container{
@@ -66,11 +79,12 @@ header{
 }
 
 #main_nav a{
-    display: block;
+    /*display: inline-block;*/
     padding: 10px 2%;
     background: #ffdddd;
     margin-bottom: 5px;
     border-radius: 5px;
+    display: inline;
 }
 
 #main_nav a:hover{
